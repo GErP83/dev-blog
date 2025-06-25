@@ -6,5 +6,4 @@ targets:
       url: "https://theswiftdev.com/"
 
     - name: github-deploy
-      output: site/output
       url: "https://theswiftdev.com/"
