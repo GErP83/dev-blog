@@ -2,9 +2,6 @@ targets:
     - name: dev 
       default: true
 
-    - name: live
-      url: "https://theswiftdev.com/"
-
     - name: github-deploy
       output: /tmp/output
       url: "https://theswiftdev.com/"
