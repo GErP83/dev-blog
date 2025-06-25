@@ -5,3 +5,4 @@ targets:
     - name: github-deploy
       output: /tmp/output
       url: "https://theswiftdev.com/"
+
