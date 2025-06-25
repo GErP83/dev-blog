@@ -56,6 +56,14 @@ queries:
             - key: title
               direction: asc
 
+dataTypes:
+    date:
+        formats:
+            full: 
+                format: "yyyy/MM/dd"
+            year: 
+                format: "y"
+
 contentTypes: 
     include:
         - page
