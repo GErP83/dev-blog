@@ -13,8 +13,6 @@ on:
 jobs:
   deploy-page:
     uses: toucansites/github-workflows/.github/workflows/deploy.yml@feature/target-param
-    with:
-      version: "latest"
     permissions:
       contents: read
       pages: write
