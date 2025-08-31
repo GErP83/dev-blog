@@ -2,14 +2,14 @@ name: Build and Deploy with Toucan
 
 on:
   push:
-    tags:
-      - 'v*'
-      - '[0-9]*'
+    branch:
+      -main
 
 jobs:
   deploy-page:
     uses: toucansites/github-workflows/.github/workflows/deploy.yml@feature/docker-cache
     with:
+      version: "1.0.0-beta.6"
       target: "live"
     permissions:
       contents: read
