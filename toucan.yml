@@ -4,4 +4,4 @@ targets:
 
     - name: live
       output: /tmp/output
-      url: "https://theswiftdev.com/"
+      url: "https://gerp83.github.io/dev-blog/"
